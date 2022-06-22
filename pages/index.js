@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export function Home() {
   return (
     <>
       <Head>
@@ -15277,7 +15277,10 @@ export default function Home() {
           </span>
         </a>
       </footer>
-    </div>
-  </>
+
+</>
+
   )
 }
+
+  export default Home;
